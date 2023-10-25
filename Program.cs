@@ -23,13 +23,14 @@ string? email = Console.ReadLine();
 
 
 
-int espacos = (40 - nome.Length) / 2;
 
 
-static int espaco (espacos) {
+static void Espaco(string? var) {
+
+    int espacos = (40 - var.Length) / 2; 
 
     for (int i=1; i < espacos; i++){
-        Console.Write(" ");
+        Console.WriteLine(" ");
 }
 }
 
@@ -37,7 +38,7 @@ static int espaco (espacos) {
 // Escreve o cartao de visita
 
 Console.WriteLine("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
-Console.WriteLine("x"+ nome +"x");
+Console.WriteLine(Espaco(nome));
 Console.WriteLine("x                                 x");
 Console.WriteLine("x     "+ profissao +"       x");
 Console.WriteLine("x                                 x");
