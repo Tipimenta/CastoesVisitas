@@ -22,30 +22,40 @@ Console.WriteLine("Digite seu email");
 string? email = Console.ReadLine();
 
 
-
-
-
-static void Espaco(string? var) {
+static void espaco(string var) {
 
     int espacos = (40 - var.Length) / 2; 
+    if (espacos % 2 == 0)
+    Console.Write("x");
+    for (int i=1; i < espacos; i++){
+        Console.Write(" ");
+    }
+    Console.Write(var);
 
     for (int i=1; i < espacos; i++){
-        Console.WriteLine(" ");
+        Console.Write(" ");
+    }
+    Console.Write("x");
 }
+
+static void espacoBranco(){
+    Console.WriteLine("                                      ");
 }
+
 
 
 // Escreve o cartao de visita
 
 Console.WriteLine("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
-Console.WriteLine(Espaco(nome));
-Console.WriteLine("x                                 x");
-Console.WriteLine("x     "+ profissao +"       x");
-Console.WriteLine("x                                 x");
-Console.WriteLine("x         "+ telefone +"         x");
-Console.WriteLine("x                                 x");
-Console.WriteLine("x   "+ descricao +"      x");
-Console.WriteLine("x                                 x");
-Console.WriteLine("x   "+ email +"      x");
-Console.WriteLine("x                                 x");
-Console.WriteLine("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"); 
+espaco(nome);
+espacoBranco();
+espaco(profissao);
+espacoBranco();
+espaco(telefone);
+espacoBranco();
+espaco(descricao);
+espacoBranco();
+espaco(email);
+espacoBranco();
+Console.WriteLine("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+
