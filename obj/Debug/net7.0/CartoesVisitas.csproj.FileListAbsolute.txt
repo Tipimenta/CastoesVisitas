@@ -1,0 +1,14 @@
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\CartoesVisitas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\CartoesVisitas.AssemblyInfoInputs.cache
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\CartoesVisitas.AssemblyInfo.cs
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\CartoesVisitas.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Visitas\CartoesVisitas\bin\Debug\net7.0\CartoesVisitas.exe
+C:\Users\Aluno\Visitas\CartoesVisitas\bin\Debug\net7.0\CartoesVisitas.deps.json
+C:\Users\Aluno\Visitas\CartoesVisitas\bin\Debug\net7.0\CartoesVisitas.runtimeconfig.json
+C:\Users\Aluno\Visitas\CartoesVisitas\bin\Debug\net7.0\CartoesVisitas.dll
+C:\Users\Aluno\Visitas\CartoesVisitas\bin\Debug\net7.0\CartoesVisitas.pdb
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\CartoesVisitas.dll
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\refint\CartoesVisitas.dll
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\CartoesVisitas.pdb
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\CartoesVisitas.genruntimeconfig.cache
+C:\Users\Aluno\Visitas\CartoesVisitas\obj\Debug\net7.0\ref\CartoesVisitas.dll
